@@ -16,8 +16,8 @@
     "vercel:login": "vercel login"
   },
   "dependencies": {
+    "@gemini-wallet/core": "^0.3.2",
     "@heroicons/react": "^2.1.5",
-    "@rainbow-me/rainbowkit": "2.2.9",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@scaffold-ui/components": "^0.1.5",
     "@scaffold-ui/debug-contracts": "^0.1.4",
@@ -26,6 +26,7 @@
     "blo": "^1.2.0",
     "burner-connector": "0.0.20",
     "daisyui": "^5.0.9",
+    "ethers": "^6.16.0",
     "kubo-rpc-client": "^5.0.2",
     "next": "^15.2.6",
     "next-nprogress-bar": "^2.3.13",
@@ -35,8 +36,8 @@
     "react-dom": "^19.0.1",
     "react-hot-toast": "^2.4.0",
     "usehooks-ts": "^3.1.0",
-    "viem": "2.39.0",
-    "wagmi": "2.19.5",
+    "viem": "latest",
+    "wagmi": "latest",
     "zustand": "^5.0.0"
   },
   "devDependencies": {
